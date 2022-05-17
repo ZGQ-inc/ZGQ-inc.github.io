@@ -9,4 +9,6 @@
 ## [备用主页](https://zgq-inc.github.io/ZGQ-inc/)
 `Github pages`
 
-> 近期 jsdelivr CDN 被墙，Github pages 和 Cloudflare pages 直连可能无法访问。
+***
+
+> 近期 jsdelivr CDN 被墙，部分分流直连可能无法访问。
