@@ -11,4 +11,6 @@
 
 ***
 
-> 近期 jsdelivr CDN 被墙，部分分流直连可能无法访问。
+> ~~近期 jsdelivr CDN 被墙，部分分流直连可能无法访问。~~
+> 
+> 已移除CDN，改为Github pages。
