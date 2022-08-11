@@ -2,15 +2,9 @@
 # 请选择主页分流地址
 ## [个人主页](https://zgq-inc.github.io/homepage/)
 `Github pages`
-## [Neocities分流](https://zgq-inc.github.io/homepage/neocities.html)
+## [Neocities分流](https://zgqinc.neocities.org/)
 `Neocities`
 ## [Cloudflare分流](https://zgqinc.pages.dev/)
 `Cloudflare pages`
 ## [备用主页](https://zgq-inc.github.io/ZGQ-inc/)
 `Github pages`
-
-***
-
-> ~~近期 jsdelivr CDN 被墙，部分分流直连可能无法访问。~~
-> 
-> 已移除CDN，改为Github pages。
