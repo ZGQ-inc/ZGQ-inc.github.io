@@ -7,4 +7,4 @@
 ## [备用域名2](https://zgq-inc.github.io/homepage/)
 `Github pages`
 ## [Github个人主页](https://github.com/ZGQ-inc/)
-`Github pages`
+`Github`
