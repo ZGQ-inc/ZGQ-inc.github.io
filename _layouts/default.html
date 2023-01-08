@@ -31,8 +31,16 @@ nTmbLglJK+QX3cY7wQZIAonZ933udsuH/A/9C166lREbtYPeAAAAAElFTkSuQmCC">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    
+    <style>
+      #countdown {
+        font-size: 50px;
+      }
+    </style>
+    
   </head>
   <body>
+    <div id="countdown">5</div>
     <div class="wrapper">
       <header>
 
@@ -47,5 +55,20 @@ nTmbLglJK+QX3cY7wQZIAonZ933udsuH/A/9C166lREbtYPeAAAAAElFTkSuQmCC">
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      let timeLeft = 4;
+      const countdown = setInterval(() => {
+        if (timeLeft == 0) {
+          clearInterval(countdown);
+        }
+        document.getElementById("countdown").innerHTML = timeLeft;
+        timeLeft--;
+      }, 1000);
+    </script>
+    <script>
+    setInterval(function() {
+  document.getElementById("countdown").innerHTML = "正在重定向......";
+}, 5000);
+   </script>
   </body>
 </html>
