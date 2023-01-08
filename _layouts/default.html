@@ -36,11 +36,14 @@ nTmbLglJK+QX3cY7wQZIAonZ933udsuH/A/9C166lREbtYPeAAAAAElFTkSuQmCC">
       #countdown {
         font-size: 50px;
       }
+      #txt {
+        font-size: 50px;
+      }
     </style>
     
   </head>
   <body>
-    <div id="countdown">5</div>
+    <div><a id="countdown">5</a><a id="txt">秒后自动重定向</a></div>
     <div class="wrapper">
       <header>
 
@@ -68,6 +71,11 @@ nTmbLglJK+QX3cY7wQZIAonZ933udsuH/A/9C166lREbtYPeAAAAAElFTkSuQmCC">
     <script>
     setInterval(function() {
   document.getElementById("countdown").innerHTML = "正在重定向......";
+}, 5000);
+   </script>
+   <script>
+    setInterval(function() {
+  document.getElementById("txt").innerHTML = "";
 }, 5000);
    </script>
   </body>
